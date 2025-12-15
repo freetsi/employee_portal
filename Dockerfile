@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.14.2
 
 RUN pip install -U pip
 RUN python -m pip install -U --force-reinstall pip
